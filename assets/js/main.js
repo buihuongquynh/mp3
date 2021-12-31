@@ -4,17 +4,16 @@ $('.banner .owl-carousel').owlCarousel({
   nav: false,
   dots: false,
   autoplay: true,
-  autoplayTimeout: 5000,
-  animateOut: 'fadeOut',
+  autoplayTimeout: 4000,
   responsive: {
       0: {
-          items: 1
+          items: 3
       },
       600: {
-          items: 1
+          items: 6
       },
       1000: {
-          items: 1
+          items: 6
       }
   }
 })
