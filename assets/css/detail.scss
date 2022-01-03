@@ -111,7 +111,11 @@ p{
 iframe{
     width: 100%;
 }
-
+.cen p{
+    font-family: "NhacCuaTui", sans-serif;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e7e2e2;
+}
 .show__more{
     display: flex;
     align-items: center;
@@ -147,4 +151,58 @@ border-bottom: 1px solid #cacaca;
     border-radius: 3px;
     margin: 0 5px 0 0;
    }
+}
+@media (max-width:768px){
+    h3{
+        font-size: 16px;
+    }
+    .view{
+        width: 43%;
+        text-align: end;
+    }
+    iframe{
+        height: auto;
+    }
+    .right{
+        display: none !important;
+    }
+    .play .kino{
+        justify-content: center;
+    }
+    .play .kino .item{
+        font-size: 12px;
+    }
+    .kino img{
+        width: 15px;
+        height: 15px;
+    }
+    .play .descript .top .top__left p{
+        width: 100%;
+    }
+    .play .descript .top .top__left p{
+        text-align: start;
+    }
+    .play .descript .top .top__left b{
+        font-size: 16px;
+    }
+    .top__right{
+        display: none;
+    }
+    .cen p{
+        text-align: start;
+    }
+    .video-thuong{
+        width: 100% !important;
+    }
+    .listBH{
+        .img{
+            display: none;
+        }
+        .name{
+            font-size: 12px;
+        }
+    }
+ .footer p{
+        text-align: start !important;
+    }
 }

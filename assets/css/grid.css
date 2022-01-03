@@ -7,7 +7,10 @@
    4. Make Columns
    5. Include Mixin
 */
-
+body{
+  max-width: 100%;
+  overflow-x: hidden;
+}
 .d-flex {
   display: flex;
 }

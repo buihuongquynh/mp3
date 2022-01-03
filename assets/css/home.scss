@@ -27,6 +27,32 @@ body {
   font-family: "NhacCuaTui", sans-serif;
   font-weight: 500;
   color: #222222;
+  .banner__search{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 50px;
+    .group{
+      display: flex;
+      align-items: center;
+      margin: 0 auto;
+      border: 1.5px solid #cacaca;
+      padding: 0px 20px;
+      border-radius: 25px;
+      img{
+        width: 15px;
+        height: 15px;
+      }
+      input{
+        font-size: 20px;
+        width: 450px;
+        height: 50px;
+        border: none;
+        outline: none;
+        padding: 10px;
+      }
+    }
+  }
   .header {
     width: 100%;
     border-bottom: #dadada solid 1px;
@@ -212,7 +238,7 @@ body {
     }
   }
   .kuni {
-    float: right;
+    float: left;
     padding: 0px 0px;
     margin-bottom: 20px;
     height: 32px;
@@ -421,7 +447,7 @@ body {
   .title__fl {
     font-size: 16px;
     font-weight: 700;
-    font-family: sans-serif;
+    font-family: "NhacCuaTui", sans-serif;
     margin-top: 10px;
   }
   .footer__center {
@@ -604,8 +630,63 @@ display: none !important;
     width: 90%;
   }
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(137, 167, 98); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(137, 167, 98); 
+}
+
+/* Handle on hover */
+
 @media(max-width:768px) {
   .wrapper .header img{
     display: none;
+  }
+}
+@media(max-width:768px) {
+  body p {
+    margin-bottom: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+  .wrapper .big__list .item__row {
+    width: 28%;
+}
+.wrapper .header ul li {
+  margin: 0 5px;
+}
+.wrapper .big__list h2{
+  padding-bottom: 0;
+}
+.wrapper .item_big_row,.wrapper .item_big_row2 {
+width: 100%;
+padding: 10px 5px;
+}
+.footer .logo{
+  display: none;
+}
+.bot_footer{
+  width: 45% !important;
+}
+.wrapper .bxh__video .img__top1 img {
+  width: 100% !important;
+}
+.wrapper .footer__bot .bot__cen .item {
+  font-size: 12px;
+  padding: 10px 0;
+}
+.wrapper .footer__bot .bot__cen {
+  width: 90%;
+  flex-direction: column;}
+  .wrapper .banner__search .group input {
+    width: 270px;
   }
 }
