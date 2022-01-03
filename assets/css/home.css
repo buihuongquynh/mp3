@@ -47,7 +47,7 @@ body li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 50px;
+  padding-top: 100px;
 }
 
 .wrapper .banner__search .group {
