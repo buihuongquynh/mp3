@@ -78,6 +78,9 @@ body li {
 }
 
 .wrapper .header {
+  position: fixed;
+  background-color: white !important;
+  z-index: 9999;
   width: 100%;
   border-bottom: #dadada solid 1px;
   -webkit-box-pack: justify;
@@ -268,6 +271,7 @@ body li {
 }
 
 .wrapper .big__list {
+  padding-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

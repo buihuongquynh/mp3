@@ -54,6 +54,9 @@ margin: 50px;
     }
   }
   .header {
+    position: fixed;
+    background-color: white !important;
+    z-index: 9999;
     width: 100%;
     border-bottom: #dadada solid 1px;
     justify-content: space-between;
@@ -171,6 +174,7 @@ margin: 50px;
   }
   /*=====end banner======== */
   .big__list {
+    padding-top: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
